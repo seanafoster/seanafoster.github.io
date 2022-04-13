@@ -1,6 +1,8 @@
 # Development Portfolio
 ## Sean Foster - Software Engineer in Ogden, Utah
 
+<br>
+
 ### Project examples
 
 ---
