@@ -7,7 +7,8 @@ The bulk of this application was done in PHP, and was fully deployed as a web ap
 ![Guessing game win screen snapshot](/docs/assets/guessing-game-2.png)
 
 The win screen pulled the top 10 scores from a database, and pointed out if the user made the list.
-`if ($result->num_rows > 0) {
+`
+if ($result->num_rows > 0) {
     $scoreId = 1;
 
     while ($row = $result->fetch_assoc()) {
@@ -20,4 +21,5 @@ The win screen pulled the top 10 scores from a database, and pointed out if the 
     }
 } else {
     echo "Got no results.";
-}`
+}
+`
