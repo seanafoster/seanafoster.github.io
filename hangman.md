@@ -1,5 +1,7 @@
 # Hangman Game
 
+[Return](https://seanafoster.github.io/index)
+
 This project was built in the .NET framework, using Razor pages.
 
 ![Hangman game snapshot](/docs/assets/hangman-1.png)
@@ -19,6 +21,3 @@ public void LoadJson()
         _words = words;
     }
 }
-``` <br>
-
-[Return](https://seanafoster.github.io/index)

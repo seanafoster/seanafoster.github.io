@@ -1,5 +1,7 @@
 # Number Guessing Game
 
+[Return](https://seanafoster.github.io/index)
+
 The bulk of this application was done in PHP, and was fully deployed as a web application.
 
 ![Guessing game snapshot](/docs/assets/guessing-game-1.png)
@@ -23,6 +25,3 @@ if ($result->num_rows > 0) {
 } else {
     echo "Got no results.";
 }
-``` <br>
-
-[Return](https://seanafoster.github.io/index)

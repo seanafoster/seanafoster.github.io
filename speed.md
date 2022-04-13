@@ -1,5 +1,7 @@
 # Speed Game
 
+[Return](https://seanafoster.github.io/index)
+
 This web application was made using .NET with Razor pages. We also used SignalR to facilitate asynchronous play in multiple browsers.
 
 ![Speed game snapshot](/docs/assets/speed-1.png)
@@ -14,9 +16,7 @@ public async Task SendTable(Table table)
     Table newTable = AddPlayers(table);
     await Clients.All.SendAsync("ReceiveUpdatedTable", newTable);
 }
-```
 
-```
 protected override async Task OnInitializedAsync()
 {
     hubConnection = new HubConnectionBuilder()
@@ -33,6 +33,3 @@ protected override async Task OnInitializedAsync()
 
     await hubConnection.StartAsync();
 }
-``` <br>
-
-[Return](https://seanafoster.github.io/index)
