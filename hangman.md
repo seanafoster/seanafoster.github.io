@@ -1,5 +1,5 @@
 layout: page
 title: "Hangman Game"
-permalink: /hangman-game/
+permalink: /hangman/
 
 # Hangman Game

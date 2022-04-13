@@ -1,5 +1,5 @@
 layout: page
 title: "Number Guessing Game"
-permalink: /number-guessing-game/
+permalink: /number/
 
 # Number Guessing Game

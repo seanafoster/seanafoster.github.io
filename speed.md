@@ -1,5 +1,5 @@
 layout: page
 title: "Speed Game"
-permalink: /speed-game/
+permalink: /speed/
 
 # Speed Game

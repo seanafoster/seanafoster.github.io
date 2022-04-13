@@ -1,5 +1,5 @@
 layout: page
 title: "WSU Scholarship App"
-permalink: /wsu-scholarship-app/
+permalink: /scholarship/
 
 # WSU Scholarship App
