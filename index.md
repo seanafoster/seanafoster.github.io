@@ -1,6 +1,8 @@
 # Development Portfolio
 ## Sean Foster - Software Engineer
+
 ### Ogden, Utah
+
 
 [Number Guessing Game](https://seanafoster.github.io/number)<br>
 A PHP-based web application hosting a simple number guessing game
