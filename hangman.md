@@ -1,5 +1,7 @@
 # Hangman Game
 
+[Return](https://seanafoster.github.io/index)
+
 This project was built in the .NET framework, using Razor pages. A user was required to login or register a new account before they could play. Passwords were hashed, salted and stored in a database, and all verification took place server-side. Once authenticated, a user could enter the hangman game and attempt to guess the word.
 
 >![Hangman game snapshot](/docs/assets/hangman-1.png)
