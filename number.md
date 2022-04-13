@@ -23,4 +23,6 @@ if ($result->num_rows > 0) {
 } else {
     echo "Got no results.";
 }
-```
+``` <br>
+
+[Return](https://seanafoster.github.io/index)

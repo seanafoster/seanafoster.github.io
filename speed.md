@@ -33,4 +33,6 @@ protected override async Task OnInitializedAsync()
 
     await hubConnection.StartAsync();
 }
-```
+``` <br>
+
+[Return](https://seanafoster.github.io/index)
