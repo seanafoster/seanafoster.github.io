@@ -2,9 +2,11 @@
 
 [Return](https://seanafoster.github.io/index)
 
-The bulk of this application was done in PHP, and was fully deployed as a web application.
+The bulk of this application was done in PHP, and was fully deployed as a web application. The user was first presented with a login/register screen with password validation, using SHA256 hashing with a salt for security. Passwords were verified server-side, using an https connection. After logging in or registering a new account, and user would be presented with a screen to make a guess between 1 and 100. Based on their input, the application would determine if their guess was too high, too low, or correct.
 
 >![Guessing game snapshot](/docs/assets/guessing-game-1.png)
+
+When a user made a correct guess, they would be taken to a win screen. Scores were calculated by how many guesses it took to get to the correct number.
 
 >![Guessing game win screen snapshot](/docs/assets/guessing-game-2.png)
 
@@ -25,3 +27,8 @@ if ($result->num_rows > 0) {
 } else {
     echo "Got no results.";
 }
+```
+
+[Return](https://seanafoster.github.io/index)
+
+[Link to repo](https://github.com/seanafoster/number-guessing-game)
